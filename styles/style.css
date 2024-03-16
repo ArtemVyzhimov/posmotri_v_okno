@@ -58,14 +58,6 @@ ol {
   white-space: nowrap;
 }
 
-::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-::placeholder {
-  color: rgba(255, 255, 255, 0.7);
-}
-
 .button {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
