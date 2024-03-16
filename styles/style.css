@@ -106,6 +106,7 @@ ol {
   height: inherit;
   -o-object-fit: cover;
   object-fit: cover;
+  object-position: center;
 }
 
 .result__video-container {
@@ -194,7 +195,7 @@ ol {
 }
 
 .content {
-  margin: 0 auto;
+  margin: 0 30px;
   display: flex;
   align-items: end;
   gap: 30px;
@@ -211,7 +212,7 @@ ol {
 }
 
 .content__details {
-  width: 399px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 21px;
@@ -241,8 +242,7 @@ ol {
   background: #545050;
 }
 
-.content__card-link:hover .content__video-card-title,
-.content__card-link:hover .content__video-card-description {
+.content__card-link:hover {
   text-decoration: underline;
 }
 
@@ -283,4 +283,5 @@ ol {
   object-position: 50% 50%;
   -o-object-fit: cover;
   object-fit: cover;
+  object-position: center;
 }
